@@ -1,0 +1,58 @@
+* {
+    font-family: 'Brush Script MT', cursive;
+    background-color: bisque;
+    color:darkolivegreen;
+}
+
+h1 {
+
+    font-size: 4vw;
+    text-align: center;
+    
+
+}
+
+
+h3 {
+
+    font-size: 2vw;
+    
+}
+
+li, a{
+
+    font-size: 1.5vw;
+    text-decoration: none;
+
+}
+
+a{
+    background: bisque;
+    transition-duration: 0.5s;
+    
+    
+    
+
+}
+
+a:hover{
+
+    color:bisque;
+    background: darkolivegreen;
+       
+    
+}
+
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.list {
+
+    text-align: center;
+}
