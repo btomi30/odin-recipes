@@ -1,46 +1,62 @@
 * {
-    font-family:'Times New Roman', Times, serif;
-    background-color: bisque;
-    color:darkolivegreen;
+    font-family: "Zen Antique", serif;
+    background-color: #F3E2C4;
+    color:#3D1415;
+    cursor: default;
+   
 }
+
+
+
 
 h1 {
 
-    font-size: 5vw;
+    font-size: 4vw;
     text-align: center;
+    border-radius: 25px;
     
+    
+    background-color: #E2A25C;
+    
+    padding: 20px 10px;
+    margin: 20px auto;
 
 }
 
 
 h3 {
 
-    font-size: 2vw;
+    font-size: 1.5vw;
+    
     
 }
 
 li, a{
 
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-decoration: none;
+    
+}
 
+li {
+
+    margin-bottom: 15px;
 }
 
 a{
-    background: bisque;
+    
     transition-duration: 0.5s;
+    display: inline-block;
+    margin-bottom: 15px;
     
     
-    
-
 }
 
 a:hover{
 
-    color:bisque;
-    background: darkolivegreen;
-       
-    
+    color:#A71B22;   
+    cursor:pointer;
+      
 }
 
 
