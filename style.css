@@ -12,47 +12,49 @@
 
 h1 {
 
-    font-size: 4vw;
+    font-size: 4rem;
     text-align: center;
-    
-    
     
     background-color: #E2A25C;
     
-    padding: 20px 10px;
-    margin-bottom: 20px;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
    
-    border-bottom: 1px solid #A71B22;
+    border-bottom: 0.1rem solid #A71B22;
         
     
 }
 
+.ingredients li, .ingredients ul, .steps li, .steps ol {
+
+
+    background-color: #E2A25C20;
+}
+
+ul {list-style-type: "🌿";}
+
 
 h3 {
 
-    font-size: 1.5vw;
-    
-    margin: 10px;
+    font-size: 110%;
+    margin: 2rem;
     
 }
 
 li, a{
 
-    font-size: 1.5vw;
+    font-size: 100%;
     text-decoration: none;
     
 }
 
-li {
 
-    margin-bottom: 15px;
-}
 
 a{
     
     transition-duration: 0.5s;
     display: inline-block;
-    margin-bottom: 15px;
+    margin-bottom: 2rem;
     
     
 }
@@ -69,7 +71,7 @@ a:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30vw;
+    max-width: 100%;
     height: auto;
 
       
@@ -79,4 +81,7 @@ a:hover{
 .list {
 
     text-align: center;
+    font-size: 150%;
 }
+
+
